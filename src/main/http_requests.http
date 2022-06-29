@@ -2,7 +2,7 @@
 POST http://localhost:8080/data-rest-test0/family
 Content-Type: application/json
 
-{"firstName": "Natalia", "lastName": "Petrovskaya", "address": "Russia, SPb, Dalnevostochny 36 78"}
+{"firstName": "Ekaterina", "lastName": "Alekseeva", "address": "Cyprus, Pathos, somewhere"}
 
 ###
 GET http://localhost:8080/data-rest-test0/
