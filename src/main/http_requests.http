@@ -1,0 +1,21 @@
+
+POST http://localhost:8080/data-rest-test0/family
+Content-Type: application/json
+
+{"firstName": "Natalia", "lastName": "Petrovskaya", "address": "Russia, SPb, Dalnevostochny 36 78"}
+
+###
+GET http://localhost:8080/data-rest-test0/
+
+###
+GET http://localhost:8080/data-rest-test0/family
+
+
+###
+GET http://localhost:8080/data-rest-test0/profile/family
+
+###
+GET http://localhost:8080/data-rest-test0/family/search
+
+###
+GET http://localhost:8080/data-rest-test0/family/search/findByLastName?name=petrovsky
