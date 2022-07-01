@@ -27,7 +27,7 @@ GET http://localhost:8080/data-rest-test0/family/2?projection=nameOnly
 GET http://localhost:8080/data-rest-test0/family/search
 
 ###
-GET http://localhost:8080/data-rest-test0/family/search/filtered/by_surname?surname=petrovsky
+GET http://localhost:8080/data-rest-test0/family/search/surnames?surname=petrovskaya
 
 ###
 GET http://localhost:8080/data-rest-test0/family/search/findByFirstName?firstName=irina
