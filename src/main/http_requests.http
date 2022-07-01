@@ -10,12 +10,24 @@ GET http://localhost:8080/data-rest-test0/
 ###
 GET http://localhost:8080/data-rest-test0/family
 
+###
+GET http://localhost:8080/data-rest-test0/family?projection=nameOnly
+
 
 ###
 GET http://localhost:8080/data-rest-test0/profile/family
 
 ###
+GET http://localhost:8080/data-rest-test0/family/4
+
+###
+GET http://localhost:8080/data-rest-test0/family/2?projection=nameOnly
+
+###
 GET http://localhost:8080/data-rest-test0/family/search
 
 ###
-GET http://localhost:8080/data-rest-test0/family/search/findByLastName?name=petrovsky
+GET http://localhost:8080/data-rest-test0/family/search/filtered/by_surname?surname=petrovsky
+
+###
+GET http://localhost:8080/data-rest-test0/family/search/findByFirstName?firstName=irina

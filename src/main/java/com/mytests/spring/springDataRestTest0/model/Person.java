@@ -1,4 +1,4 @@
-package com.mytests.spring.springDataRestTest0;
+package com.mytests.spring.springDataRestTest0.model;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -15,7 +15,7 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
-    private long id;
+    private int id;
     @Basic
     @Column(name = "first_name")
     private String firstName;
@@ -26,11 +26,11 @@ public class Person {
     @Column(name = "address")
     private String address;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

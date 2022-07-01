@@ -1,5 +1,6 @@
-package com.mytests.spring.springDataRestTest0;
+package com.mytests.spring.springDataRestTest0.events;
 
+import com.mytests.spring.springDataRestTest0.model.Person;
 import org.springframework.data.rest.core.event.AbstractRepositoryEventListener;
 import org.springframework.stereotype.Component;
 
